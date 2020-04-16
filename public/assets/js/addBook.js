@@ -12,7 +12,7 @@ $(document).ready(() => {
       authorId
     }
 
-    $.post('/api/book/new', newBookObj)
+    $.post('/api/book', newBookObj)
       .then(response => {
         console.log(response)
       
